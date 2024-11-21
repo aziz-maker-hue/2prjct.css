@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Modern</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+       background-color: rgb(255, 255, 255);
+    }
+    p {
+      color: black;
+      
+    }
+    h1 {
+      color: black;
+    }
+   
+   
+    .explore {
+    background-color :rgb(255, 255, 255) ;
+    background-image : url('../screenshots/background')
+    
+    }
+  
+    .hero-section {
+      background: url('hero-image.jpg') no-repeat center center/cover;
+      height: 100vh;
+    }
+    .footer {
+      background-color: #8cbbec;
+      color: rgb(255, 255, 255);
+    }
+    .footer a {
+      color: rgba(255, 255, 255, 0.411);
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">The Modern Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+
+  
+  <section id="home" class="hero-section text-white text-center d-flex align-items-center">
+    <div class="container">
+      <div class="figure">
+        <img src="C:\Users\azyz\Downloads\background.avif"
+        width="1400"
+        height="800"/>
+      
+      <h1 class="display-4">Welcome to Our Restaurant </h1>
+      <p class="lead">Delicious food, unforgettable experiences.</p>
+     </div>
+      <div class="explore">
+      <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+    </div>
+  </section>
+
+ 
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+       
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="griled">
+            <img src="C:\Users\azyz\Downloads\Grilled Steak.jpg" class="card-img-top" alt="Grilled Steak" height="415px">
+            <div class="card-body">
+              <h5 class="card-title">Grilled Steak</h5>
+              <p class="card-text">Juicy steak grilled to perfection.</p>
+              <p class="card-text fw-bold">$25.99</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\azyz\Downloads\Pasta Primavera.jfif" class="card-img-top" alt="Pasta Primavera">
+            <div class="card-body">
+              <h5 class="card-title">Pasta Primavera</h5>
+              <p class="card-text">Fresh vegetables and creamy sauce.</p>
+              <p class="card-text fw-bold">$18.99</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\azyz\Downloads\Classic Burger.webp" class="card-img-top" alt="Classic Burger">
+            <div class="card-body">
+              <h5 class="card-title">Classic Burger</h5>
+              <p class="card-text">Topped with lettuce, tomato, and cheese.</p>
+              <p class="card-text fw-bold">$14.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="C:\Users\azyz\Downloads\about us.jfif" class="img-fluid rounded" alt="About Us">
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>We are a family-owned restaurant serving the finest food in town. Our focus is on quality, freshness, and exceptional service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="exemple@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="footer py-3 text-center">
+    <div class="container">
+      <p>&copy; 2024 The Modern Restaurant. All rights reserved.</p>
+   
+      <a href="https://www.instagram.com/3zayezzz/"><i class="bi bi-instagram"></i></a>
+      
+    </div>
+  </footer>
+
+ 
+ 
+</body>
+</html>
+
